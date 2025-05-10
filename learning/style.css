@@ -1,0 +1,24 @@
+h3{
+    color: blueviolet;
+}
+h4{
+    color:crimson;
+}
+a{
+    color:brown;
+}
+body{
+    background-color: aquamarine;
+}
+button{
+    background-color: yellow;
+    color: red;
+}
+#gillsans{
+    text-align: start;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Hiresh{
+    font-size: 35px;
+    line-height: 1px;
+}

@@ -1,0 +1,26 @@
+*{
+    color:crimson
+}
+.centre{
+    text-align: center;
+}
+h1{
+    text-decoration: crimson double underline;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    background-color: aquamarine;
+}
+a{
+    color:blueviolet;
+    font-family: cursive;
+    font-size: large;
+    font-weight: bolder;
+    line-height: 40px;
+}
+#Hiresh{
+    font-size:x-large;
+}
