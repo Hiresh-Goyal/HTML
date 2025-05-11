@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hi</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
     <h1>
-        Hi my user, how are you?
+        Hi my user, how are you?<br>
+        Let's start by logging you in
     </h1>
     <!-- <table>
         <caption>
@@ -43,38 +45,49 @@
         </tr>
     </table> -->
 
-    <p>
-        Lets start by Logging you in
-    </p>
     <form action = "/portfolio/index.html">
         <b>Username</b> <br><input type = "text" placeholder = "Your Username"><br><br>
         <b>Password </b> <br><input type = "password" placeholder = "Your Password"><br><br>
         <b>Class</b><br>
-        <label for = "XI">
-            <input type = "radio" value = "Class XI" name = "class" id = "XI">Class XI
-        </label>
+        <div class="Radio and checkbox">
+            <label for = "XI">
+                <input type = "radio" value = "Class XI" name = "class" id = "XI">Class XI
+            </label>
+        </div>
         <br>
-        <label for = "XII">
-            <input type = "radio" value = "Class XII" name = "class" id = "XII">Class XII
-        </label>
+        <div class="Radio and checkbox">
+            <label for = "XII">
+                <input type = "radio" value = "Class XII" name = "class" id = "XII">Class XII
+            </label>
+        </div>
         <br><br>
 
         <b>Select your current subjects</b><br>
-        <label for = "Math">
-            <input type="checkbox" value="Math" name="subjects" id = "Math">Maths
-        </label><br>
-        <label for = "Chemistry">
-            <input type="checkbox" value="Chemistry" name="subjects" id = "Chemistry">Chemistry
-        </label><br>
-        <label for = "Physics">
-            <input type="checkbox" value="Physics" name="subjects" id = "Physics">Physics
-        </label><br>
-        <label for = "Computer Science">
-            <input type="checkbox" value="Computer Science" name="subjects" id = "Computer Science">Computer Science
-        </label><br>
-        <label for = "English">
-            <input type="checkbox" value="English" name="subjects" id = "English">English
-        </label><br><br>
+        <div class="Radio and checkbox">
+            <label for = "Math">
+                <input type="checkbox" value="Math" name="subjects" id = "Math">Maths
+            </label>
+        </div><br>
+        <div class="Radio and checkbox">
+            <label for = "Chemistry">
+                <input type="checkbox" value="Chemistry" name="subjects" id = "Chemistry">Chemistry
+            </label>
+        </div><br>
+        <div class="Radio and checkbox">
+            <label for = "Physics">
+                <input type="checkbox" value="Physics" name="subjects" id = "Physics">Physics
+            </label>
+        </div><br>
+        <div class="Radio and checkbox">
+            <label for = "Computer Science">
+                <input type="checkbox" value="Computer Science" name="subjects" id = "Computer Science">Computer Science
+            </label>
+        </div><br>
+        <div class="Radio and checkbox">
+            <label for = "English">
+                <input type="checkbox" value="English" name="subjects" id = "English">English
+            </label>
+        </div><br><br>
 
         <b>Select Your Country</b><br>
         <select name = "Country">
