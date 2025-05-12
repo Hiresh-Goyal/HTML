@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0   ;
+}
+body{
+    background-color: grey;
+}
+
+p{
+    color: white;
+}
+.navbar{
+    display: flex;
+    background-color: #0f1111;
+    border:5px solid white;
+    height: 60px;
+    justify-content: space-between;
+}
+.orange{
+    padding-left: 7px;
+    color: orange;
+    font-size: 25px;
+}
+.white{
+    color: white;
+}
+textarea {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    resize: none; 
+    height: 35px;
+    width: 200px;
+}
+
+button {
+    margin: 10px;
+    background-color: #f08804;
+    color: white;
+    border: 1px solid white;
+    height: 35px;
+    width: 70px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search{
+    display: flex;
+}

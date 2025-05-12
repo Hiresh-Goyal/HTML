@@ -1,0 +1,28 @@
+.border{
+    width: 56px;
+    border: 2px solid black;
+}
+
+.red{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 3px;
+}
+
+.yellow{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 3px;
+}
+
+.green{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 3px;
+}
