@@ -1,0 +1,41 @@
+*{
+    background-color: black;
+}
+
+#inner{
+    height: 100px;
+    width: 100px;
+}
+
+#outer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+}
+
+@media (max-width : 300px){
+    #inner{
+        background-color: green;
+    }
+}
+
+@media (min-width : 300px) and (max-width : 400px){
+    #inner{
+        background-color: pink;
+    }
+}
+
+@media (min-width : 400px) and (max-width : 600px){
+    #inner{
+        background-color: red;
+    }
+}
+
+@media (min-width : 600px) {
+    #inner{
+        background-color: blue;
+    }
+}

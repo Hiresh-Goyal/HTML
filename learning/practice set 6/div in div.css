@@ -1,0 +1,18 @@
+*{
+    font-size: larger;
+}
+
+#inner{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+}
+
+#outer{
+    display: flex;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    width: 1500px;
+}
