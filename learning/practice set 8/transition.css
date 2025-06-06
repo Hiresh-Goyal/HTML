@@ -2,33 +2,35 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
-    width: 1500px;
+    height: 350px;
+    width: 750px;
     background-color: black;
     color: purple;
     font-size: 20px;
-    /* transition: all 2s ease; */
-     transition: 
+    transition: all 2s ease;
+     /* transition: 
     background-color 2s ease, 
     font-size 2s ease, 
     color 2s ease, 
-    transform 3s ease;
+    transform 3s ease; */
+
+    position: absolute;
+    left: 600px;
+    top:300px;
 }
 
 div:hover{
     background-color: red;
     font-size: 50px;
     color: white;
+    scale:2;
 }
 
 div:active{
+    scale: 2;
     background-color: pink;
     font-size: 40px;
     color: cornflowerblue;
     transform: rotate(360deg);
-    transition: 
-    background-color 3s ease, 
-    font-size 3s ease, 
-    color 3s ease, 
-    transform 3s ease;
+    transition: all 3s ease
 }

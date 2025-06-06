@@ -1,0 +1,21 @@
+.background-container {
+      position: relative;
+      height: 100vh;
+      width: 100vw;
+      background-image: url("fire.jpg");
+      background-size:cover;
+      background-position: center;
+    }
+
+    .blend-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-image: url("black_tree.jpg");
+      background-size: cover;
+      background-position: center;
+      mix-blend-mode: screen;
+      pointer-events: none; /* Let clicks pass through */
+    }
